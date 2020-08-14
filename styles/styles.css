@@ -54,7 +54,8 @@ html {
 header{
     display: flex;
     background-color: grey;
-    height: 125px;
+    height: 5%;
+    width: 100%;
 }
 
 h1 {
@@ -62,8 +63,16 @@ h1 {
     font-family: 'Cinzel Decorative', cursive;
 }
 
+.logo{
+    width: 100%;
+    padding: 1%;
+}
+
 .topNav{
     display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 1.5%;
 }
 
 .topNav a{
@@ -77,14 +86,15 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .userInfo img{
-    width: 12%;
+    width: 65px;
     border-radius: 50%;
     top: 0%;
     align-self: flex-end;
-    padding-right: 1%;
+    padding: 1%;
 }
 
 #date {
